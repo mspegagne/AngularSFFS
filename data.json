@@ -1,0 +1,78 @@
+[
+	{
+		"name": "Glaces",
+		"description": "De délicieuses glaces et sorbets maison mais aussi des esquimaux.",
+		"ref": "ICE-CREAM-737",
+		"price": 8.50,
+		"images": [
+			"images/candy-01.png",
+			"images/candy-02.png",
+			"images/candy-03.png"
+		],
+		"reviews": [{
+			"stars": 5,
+			"body": "Delicious !",
+			"author": "joe@example.org",
+			"createdOn": 1397490980837
+		}, {
+			"stars": 1,
+			"body": "Ewww, pas bon.",
+			"author": "tim@example.org",
+			"createdOn": 1397490980837
+		}],
+		"canPurchase": true,
+		"soldOut": false
+	},
+	{
+		"name": "Biscuits",
+		"description": "Ces biscuits artisanaux raviront vos papilles. Cookies, smores ou sandwich glacés, à vous de choisir.",
+		"ref": "COOKIE-592",
+		"price": 12.00,
+		"images": [
+			"images/candy-04.png",
+			"images/candy-05.png",
+			"images/candy-06.png"
+		],
+		"reviews": [{
+			"stars": 3,
+			"body": "Sweet !",
+			"author": "jimmy@example.org",
+			"createdOn": 1397490980837
+		}, {
+			"stars": 4,
+			"body": "Tasty !",
+			"author": "johnny@example.org",
+			"createdOn": 1397490980837
+		}],
+		"canPurchase": true,
+		"soldOut": false
+    },
+	{
+		"name": "Gateaux",
+		"description": "Tartes sucrées et gâteaux moelleux, cuisinés avec amour.",
+		"ref": "CAKE-856",
+		"price": 24.95,
+		"images": [
+			"images/candy-07.png",
+			"images/candy-08.png",
+			"images/candy-09.png"
+		],
+		"reviews": [{
+			"stars": 3,
+			"body": "Divine !",
+			"author": "guy@example.org",
+			"createdOn": 1397490980837
+		}, {
+			"stars": 5,
+			"body": "Sugar Crush !",
+			"author": "louis@example.org",
+			"createdOn": 1397490980837
+		}, {
+			"stars": 1,
+			"body": "Dégoutant.",
+			"author": "nat@example.org",
+			"createdOn": 1397490980837
+		}],
+		"canPurchase": true,
+		"soldOut": false
+	}]
