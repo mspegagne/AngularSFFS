@@ -21,7 +21,7 @@
 			"createdOn": 1397490980837
 		}],
 		"canPurchase": true,
-		"soldOut": false
+		"soldOut": true
 	},
 	{
 		"name": "Biscuits",
