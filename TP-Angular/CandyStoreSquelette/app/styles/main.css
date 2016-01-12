@@ -1,0 +1,33 @@
+body {
+    background: url(/images/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 56pt;
+    color: #F24660;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h2 {
+    /*font-family: cursive;*/
+    font-size: large;
+}
+
+.panel {
+    margin: 0 30px 10px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.small-image {
+    margin-right: 10px;
+}
+
+.eval {
+    list-style-type: none;
+}

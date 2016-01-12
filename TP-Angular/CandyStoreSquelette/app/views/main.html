@@ -1,0 +1,93 @@
+<!--  Products Container  -->
+<div class="list-group">
+    <!--  Product Container  -->
+    <div class="panel panel-default list-group-item">
+        <h3>
+			<em class="pull-right"></em>
+		</h3>
+        <button class="btn btn-primary pull-right">Acheter</button>
+		
+        <!-- Image Gallery  -->
+        <div>
+            <ul class="img-thumbnails clearfix">
+                <li class="small-image pull-left thumbnail">
+                    <img/>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Product Tabs  -->
+        <section class="tab">
+            <ul class="nav nav-pills">
+                <li>
+                    <a href>Description</a>
+                </li>
+                <li>
+                    <a href>Référence</a>
+                </li>
+                <li>
+                    <a href>Evaluations</a>
+                </li>
+            </ul>
+
+
+            <!--  Description Tab's Content  -->
+            <div>
+                <h4>Description</h4>
+                <blockquote></blockquote>
+            </div>
+
+            <!--  Spec Tab's Content  -->
+            <div>
+                <h4>Référence</h4>
+                <blockquote></blockquote>
+            </div>
+
+            <!--  Review Tab's Content  -->
+            <div>
+                <ul class="eval">
+                    <h4>Evaluations</h4>
+                    <li>
+                        <blockquote>
+                            <strong> Etoiles</strong>
+                            
+                            <cite class="clearfix">—</cite>
+                        </blockquote>
+                    </li>
+                </ul>
+
+                <!--  Review Form -->
+                <form name="reviewForm">
+
+                    <!--  Live Preview -->
+                    <blockquote>
+                        <strong>	Etoiles</strong>
+                        
+                        <cite class="clearfix"> - </cite>
+                    </blockquote>
+
+                    <!--  Review Form -->
+                    <h4>Laisser une évaluation</h4>
+                    <fieldset class="form-group">
+                        <select class="form-control" ng-options="stars for stars in [5,4,3,2,1]"
+                                title="Stars">
+                            <option value>Noter le produit</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control"
+                                  placeholder="Ecrire une courte évaluation du produit..." title="Review"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control"
+                               placeholder="jimmy@example.org" title="Email"/>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <input type="submit" class="btn btn-primary pull-right" value="Evaluer"/>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </div>
+
+</div>
